@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "deepakalhi-inferobs_jd117"
+name = "deepakalhi-gradient_accumulation_batch_budget_alloc"
 version = "0.1.0"
 description = "按给定权重把总额度分配到各项，报告超分配项与利用率"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://deepakalhi.github.io"
-Repository = "https://github.com/deepakalhi/inferobs_jd117"
-Issues = "https://github.com/deepakalhi/inferobs_jd117/issues"
+Repository = "https://github.com/deepakalhi/gradient_accumulation_batch_budget_alloc"
+Issues = "https://github.com/deepakalhi/gradient_accumulation_batch_budget_alloc/issues"
 
 [project.scripts]
-inferobs_jd117 = "inferobs_jd117:main"
+gradient_accumulation_batch_budget_alloc = "gradient_accumulation_batch_budget_alloc:main"
 
 [tool.setuptools]
-py-modules = ["inferobs_jd117"]
+py-modules = ["gradient_accumulation_batch_budget_alloc"]
